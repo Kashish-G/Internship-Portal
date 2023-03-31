@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    position: relative;
+width: 100%;
+height: 100vh;
+
+background: #FFFFFF;
+}
+
+.logo{
+    position: absolute;
+width: 30%;
+top:25%;
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 2.5rem;
+line-height: 3rem;
+
+background: linear-gradient(90deg, #57737A 0%, #000000 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+}
+
+.navbar{
+    position: absolute;
+width: 100%;
+height: 6.25rem;
+background: #FFFFFF;
+}
+
+.home{
+    position: absolute;
+width:2.875rem;
+height: 1.188rem;
+left: 47.313rem;
+top:2.563rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size:1rem;
+line-height:1.188rem;
+color: #212121;
+
+}
+
+.course{
+    
+position: absolute;
+width:4rem;
+height: 1.188rem;
+left: 52.625rem;
+top:2.563rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.188rem;
+color: #212121;
+}
+
+.research{
+    
+position: absolute;
+width: 4.5rem;
+height: 1.188rem;
+left: 59.063rem;
+top:2.563rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.188rem;
+color: #212121;
+}
+
+.interview{
+    position: absolute;
+width: 4.5rem;
+height: 1.188rem;
+left:66rem;
+top: 2.563rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.188rem;
+color: #212121;
+}
+
+.login{
+    position: absolute;
+width: 2.938rem;
+height:1.188rem;
+left: 78.625rem;
+top: 2.563rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 1rem;
+line-height: 1.188rem;
+
+color: #212121;
+}
+.registerbtn{
+position: absolute;
+width: 10.313rem;
+height: 3.438rem;
+left: 83.438rem;
+top:1.438rem;
+font-size: 1rem;
+background: #85D1A0;
+border-radius: 0.375rem;
+color: white; 
+border: 0;  
+box-shadow: 0rem 0.063rem 0.063rem rgba(0, 0, 0, 0.25);
+
+}
+
+.first-section{
+    position: absolute;
+    width: 100%;
+    height:38.125rem;
+    left: 0rem;
+    top: 6.25rem;
+
+background: #E9FDFF;
+}
+
+.semicircle{
+  
+position: absolute;
+width: 5rem;
+height: 5rem;
+left:6.688rem;
+top:5.25rem;
+opacity: 0.5;
+    
+}
+
+.heading-1{
+    position: absolute;
+width:39.563rem;
+height: 4.813rem;
+left:5.125rem;
+top: 7.125rem;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 3rem;
+line-height:4.813rem;
+
+color: #212121;
+}
+
+.rectangle{
+    position: absolute;
+    top:15.25rem;
+    left: 10.313rem;
+    background-color: #6255a5;
+    width: 9.375rem;
+    height:0.25rem;
+
+}
+
+.heading-2{
+    position: absolute;
+width: 22.438rem;
+height: 4.813rem;
+left:17.625rem;
+top: 12.75rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 3rem;
+line-height: 4.813rem;
+
+color: #212121;
+}
+
+.star-icon{
+    position: absolute;
+    width:2.5rem;
+    height:2.5rem;
+    left: 37.625rem;
+    top: 15.25rem;
+}
+
+.subtitle{
+position: absolute;
+width:37.313rem;
+height:2.625rem;
+left: 2.625rem;
+top: 18.375rem;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 1.5rem;
+line-height: 2.625rem;
+color: #57737A;
+}
+
+.get-startedbtn{
+    position: absolute;
+    width: 10.688rem;
+    height: 3.875rem;
+    left:10.125rem;
+    top: 22.125rem;
+    color:white;
+    text-align: center;
+    vertical-align:middle;
+    line-height:3.75rem;
+    font-size: 1.125rem;
+    background: #4A2145;
+    border-radius: 0.375rem;
+}
+
+.browsebtn{
+    
+box-sizing: border-box;
+
+position: absolute;
+width: 14.375rem;
+height: 3.875rem;
+left: 22rem;
+    top: 22.125rem;
+    text-align: left;
+    padding-left:1.25rem;
+background:#E9FDFF ;
+border: 0.063rem solid #4A2145;
+border-radius: 0.375rem;
+color: #4A2145;
+font-size: 1.125rem;
+font-family: 'Inter';
+}
+
+.arrow-icon{
+    position: absolute;
+width: 1.5rem;
+height: 1.5rem;
+left:33.938rem;
+top: 23.4rem;
+
+}
+
+.star{
+    
+position: absolute;
+width:1.875rem;
+height:1.875rem;
+left: 11.3rem;
+top: 29.625rem;
+
+
+}
+
+.star-rec{
+    position: absolute;
+width: 4.188rem;
+height: 3.75rem;
+left: 10.175rem;
+top: 28.688rem;
+
+background: #FFFFFF;
+border-radius: 0.375rem;
+}
+
+.sub-text{
+
+
+position: absolute;
+width: 20.69rem;
+height: 3.75rem;
+left: 15.69rem;
+top: 28.69rem;
+text-align: left;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.125rem;
+line-height: 1.875rem; 
+color: #212121;
+
+}
+
+.landingpage-image{
+    position: absolute;
+    width: 35.375rem;
+height: 31.063rem;
+left: 57.813rem;
+top: 4.063rem;
+}
+
+.search-div{
+
+
+box-sizing: border-box;
+position: absolute;
+width: 44.75rem; 
+height: 5.063rem;
+left: 9.313rem; 
+top: -16.938rem; 
+
+background: white;
+border: 0.063rem solid #F1F0F0;
+border-radius: 0.375rem; 
+
+}
+
+.second-section{
+    position: absolute;
+height: 44.375rem;
+top: 59rem;
+width: 100%;
+
+
+background: #FFFFFF;
+}
+
+.search-1{
+    position: absolute;
+width: 1.5rem;
+height: 1.5rem;
+left: 10.875rem;
+top: -15.3rem;
+}
+
+.role-div{
+    position: absolute;
+width: 5.75rem;
+height: 1.875rem;
+left: 13.938rem;
+top: -15.5rem;
+border: none;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.125rem;
+line-height: 1.875rem;
+
+color: #74757E;
+}
+
+input:focus{
+    outline: none;
+}
+
+.line{
+    position: absolute;
+width: 2.8125rem;
+height: 0rem;
+left: 25.75rem;
+top: -14.5rem;
+
+border: 0.0625rem solid #F1F0F0;
+transform: rotate(90deg);
+}
+
+.company-name{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: 28.588rem;
+    top: -15.3rem;
+}
+
+.company-div{
+    position: absolute;
+width: 8.5rem;
+height: 1.875rem;
+left: 31.25rem;
+top: -15.5rem;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 1.125rem;
+line-height: 1.875rem;
+border: none;
+
+color: #74757E;
+
+}
+
+.search-btn{
+    position: absolute;
+width: 9.9375rem;
+height: 4rem;
+left: 43.5rem;
+top: -16.4rem;
+border: none;
+background: #85D1A0;
+border-radius: 0.25rem;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+color: #FFFFFF;
+font-size: 1.125rem;
+padding-left:1.7rem;
+box-shadow: 0rem 0.063rem 0.063rem rgba(0, 0, 0, 0.25);
+
+}
+
+.search-2{
+    position: absolute;
+width: 1.5rem;
+height: 1.5rem;
+left: 45rem;
+top: -15.2rem;
+
+}
